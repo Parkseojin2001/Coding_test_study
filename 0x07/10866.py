@@ -41,3 +41,4 @@ for _ in range(int(input())):
             print(deq[-1])
         else:
             print(-1)
+        
