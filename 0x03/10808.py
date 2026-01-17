@@ -1,6 +1,6 @@
 # Authored by : 21011645
 # Co-authored by : -
-# https://www.acmicpc.net/source/101985038
+# https://www.acmicpc.net/problem/10808
 import sys
 input = sys.stdin.readline
 
