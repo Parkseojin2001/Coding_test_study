@@ -1,6 +1,13 @@
 # Authored by : 21011645
-# Co-authored by : -
-# http://boj.kr/****************
+# https://www.acmicpc.net/problem/2587
 import sys
 input = sys.stdin.readline
-}
+nums = []
+
+for _ in range(5):
+  nums.append(int(input()))
+
+nums.sort()
+
+print(sum(nums) // 5)
+print(nums[2])

@@ -1,6 +1,6 @@
 # Authored by : 21011645
-# Co-authored by : -
-# http://boj.kr/****************
+# https://www.acmicpc.net/problem/2557
 import sys
 input = sys.stdin.readline
-}
+
+print("Hello World!")
