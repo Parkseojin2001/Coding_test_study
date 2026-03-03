@@ -2,5 +2,5 @@
 # Co-authored by : -
 # http://boj.kr/****************
 import sys
+
 input = sys.stdin.readline
-}
