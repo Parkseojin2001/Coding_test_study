@@ -1,29 +1,29 @@
 # Authored by : 21011645
-# Co-authored by : -
-# http://boj.kr/****************
+# https://www.acmicpc.net/problem/10828
 import sys
+
 input = sys.stdin.readline
 
 stack = []
 
 for i in range(int(input())):
     command = list(input().split())
-    
-    if command[0] == 'push':
+
+    if command[0] == "push":
         stack.append(command[1])
-    elif command[0] == 'pop':
+    elif command[0] == "pop":
         if not stack:
             print(-1)
         else:
             print(stack.pop())
-    elif command[0] == 'size':
+    elif command[0] == "size":
         print(len(stack))
-    elif command[0] == 'empty':
+    elif command[0] == "empty":
         if not stack:
             print(1)
         else:
             print(0)
-    elif command[0] == 'top':
+    elif command[0] == "top":
         if not stack:
             print(-1)
         else:
